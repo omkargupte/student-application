@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+
+.my-name
+{
+       background-color: lightgrey;
+    font-size: larger;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-data
+{
+	    background-color: peachpuff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 1em;
+}
+label.login
+{
+	    margin-left: 25%;
+}

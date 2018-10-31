@@ -1,0 +1,472 @@
+@CHARSET "ISO-8859-1";
+
+
+.table-data
+{
+	padding-top: 25px;
+}
+.stud-heading
+{
+background-color: firebrick;
+    width: auto;
+    height: 60px;
+}
+
+h1
+{
+	text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+label.log
+{
+	
+	  margin-left: -26%;
+    position: fixed;
+    top: 39em;
+    
+    font-family: cursive;
+}
+a
+{
+	  margin-left: -12%;
+    position: fixed;
+    top: 39em;
+    
+    font-family: cursive;
+	
+}
+
+label.fname
+{
+	font-size: 20px;
+    font-family: cursive;
+    margin-left: 6.5%;
+   
+}
+
+label.mname
+{
+	
+	position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 26%;
+    top: -1.3em;
+}
+label.lname
+{
+	font-size: 20px;
+    font-family: cursive;
+        margin-left: 84.5%;
+    position: absolute;
+    top: 5.35em;
+}
+input.fn
+{
+	width: 20%;
+    height: 25px;
+    font-size: 18px;
+       
+   
+}
+input.fn:hover
+{
+	
+	border: 2px black solid;
+}
+input.mn
+{
+	width: 20%;
+    height: 25px;
+    margin-left: 40%;
+    position: absolute;
+    top: 7.5em;
+    font-size: 18px;
+   
+}
+input.mn:hover
+{
+	
+	border: 2px black solid;
+}
+input.ln
+{
+	width: 20%;
+    height: 25px;
+    margin-left: 78.6%;
+    position: absolute;
+    top: 7.5em;
+    font-size: 18px;
+}
+input.ln:hover
+{
+	
+	border: 2px black solid;
+}
+input.birth:hover
+{
+	
+	border: 2px black solid;
+}
+label.add
+{
+	font-size: 20px;
+    font-family: cursive;
+    margin-left: 6.5%;
+    position: relative;
+    top: 0.7em;
+    
+}
+input.ad
+{
+	width: 80%;
+    height: 25px;
+    font-size: 16px;
+        position: relative;
+    top: 0.8em;
+   
+}
+input.ad:hover
+{
+	
+	border: 2px black solid;
+}
+label.pincode
+{
+	    font-size: 20px;
+    font-family: cursive;
+    margin-left: 6.5%;
+    top: 1.8em;
+    position: relative;
+ 
+}
+
+label.city
+{
+	
+	position: absolute;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 15%;
+        top: 12.4em;
+}
+label.state
+{
+	font-size: 20px;
+    font-family: cursive;
+    margin-left: 62.5%;
+    position: relative;
+    top: -1.1em;
+}
+
+label.country
+{
+       font-size: 20px;
+    font-family: cursive;
+    margin-left: 86.5%;
+    position: relative;
+        top: -2.7em;
+}
+input.pc
+{
+	    width: 20%;
+    height: 25px;
+    font-size: 18px;
+    position: relative;
+    top: 1.8em;
+    font-size: 18px;
+   
+}
+input.ct
+{
+	    width: 20%;
+    height: 25px;
+    margin-left: 27%;
+    position: absolute;
+   top: 15.4em;;
+    font-size: 18px;
+   
+}
+input.st
+{
+width: 20%;
+    height: 25px;
+    margin-left: 54%;
+    position: absolute;
+        top: 15.5em;
+    font-size: 18px;
+}
+
+input.cty
+{
+width: 20%;
+    height: 25px;
+    margin-left: 78.6%;
+    position: absolute;
+       top: 15.5em;
+    font-size: 18px;
+}
+input.pc:hover
+{
+	
+	border: 2px black solid;
+}
+input.ct:hover
+{
+	
+	border: 2px black solid;
+}
+input.st:hover
+{
+	
+	border: 2px black solid;
+}
+input.cty:hover
+{
+	
+	border: 2px black solid;
+}
+
+label.email
+{
+	font-size: 20px;
+    font-family: cursive;
+    margin-left: 6.5%; 
+}
+
+
+label.contact
+{
+	position: absolute;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 8%;
+    top: 16.6em;
+}
+label.dob
+{
+	    position: fixed;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 7%;
+    top: 16.8em;
+}
+
+label.gender
+{
+	    font-size: 20px;
+    font-family: cursive;
+    margin-left: 86.7%;
+    position: absolute;
+    top: 17em;
+}
+input.birth
+{
+	position: absolute;
+    margin-left: 54%;
+    top: 27.2em;
+    width: 20%;
+    height: 25px;
+}
+
+input.eid
+{
+width: 30%;
+    height: 25px;
+    font-size: 18px;
+}
+input.pno
+{
+       width: 20%;
+    height: 25px;
+    margin-left: 32%;
+    position: relative;
+    top: -1.65em;
+    font-size: 18px;
+}
+input.gen
+{
+	    margin-left: 80.6%;
+    position: absolute;
+    top: 28em;
+    
+}
+input.gen2
+{
+	          margin-left: 89.6%;
+    position: absolute;
+    top: 28em;
+}
+
+
+label.g1
+{
+	        position: fixed;
+    margin-left: 82.4%;
+    top:20.5em;
+    font-size: 18px;
+    font-family: cursive;
+}
+label.g2
+{
+	    position: absolute;
+    margin-left: 91.4%;
+    top: 20.4em;
+    font-size: 18px;
+    font-family: cursive;
+   
+}
+input.eid:hover
+{
+	
+	border: 2px black solid;
+}
+input.pno:hover
+{
+	
+	border: 2px black solid;
+}
+label.uid
+{
+	font-size: 20px;
+    font-family: cursive;
+    margin-left: 6.5%;
+    position: relative;
+    top: -1.2em;
+
+}
+label.pass
+{
+	    position: absolute;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 26%;
+    top: 21.3em;
+}
+label.cpass
+{
+	  font-size: 20px;
+    font-family: cursive;
+    margin-left: 81.5%;
+    position: absolute;
+    top: 21.35em;
+}
+input.uname
+{
+	width: 20%;
+    height: 25px;
+    font-size: 18px;
+    position: relative;
+        top: -1.2em;
+}
+input.p1
+{
+	    width: 20%;
+    height: 25px;
+    margin-left: 40%;
+    position: absolute;
+    top: 25.3em;
+    font-size: 18px;
+}
+input.p2
+{
+	    width: 20%;
+    height: 25px;
+    margin-left: 78.6%;
+    position: absolute;
+    top: 25.3em;
+    font-size: 18px;
+}
+input.uname:hover
+{
+	
+	border: 2px black solid;
+}
+input.p1:hover
+{
+	
+	border: 2px black solid;
+}
+input.p2:hover
+{
+	
+	border: 2px black solid;
+}
+
+span
+{
+	color:red;
+	font-family: cursive;
+	font:bold;
+}
+.first
+{   
+	position: absolute;
+   top: 10.5em;
+       margin-left: -18%;
+  
+}
+.middle
+{
+	position:fixed;
+	margin-left: 43%;
+	top: 10.5em;
+}
+.last
+{
+	position: fixed;
+    margin-left: 82%;
+   top: 10.5em;
+	
+}
+.pinnumber
+{
+	    position: absolute;
+       top: 19.3em;
+    margin-left: -16%;
+}
+.ct
+{   
+	    position: absolute;
+    top: 19.5em;
+    margin-left: 28%;
+  
+}
+.st
+{   
+	    position: absolute;
+    top: 19.5em;
+    margin-left: 56%;
+  
+}
+.e-id
+{
+	position: fixed;
+    top: 24.5em;
+    margin-left: -21%;
+}
+.phno
+{
+	    position: fixed;
+    top: 24.5em;
+    margin-left: -18%;
+}   
+.usrid
+{
+      position: absolute;
+    top: 30.5em;
+    margin-left: -20%;	
+}
+.pwd1
+{
+        position: absolute;
+    top: 30.3em;
+    margin-left: 25%;
+}
+.pwd2
+{
+       position: absolute;
+    top: 30.3em;
+    margin-left: 81%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Login Form</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="global.css">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-sx-12"></div>
+			<div class="col-md-4 col-sm-4 col-sx-12">
+				<form action="UserValidator" method="post" class="form-container">
+
+					<div class="form-group">
+						<label for="uname">User Name</label> <input type="text"
+							class="form-control" id="uid" placeholder="User Name"
+							name="userid" required>
+					</div>
+					<div class="form-group">
+						<label for="pass">Password</label> <input type="password"
+							class="form-control" id="pwd" placeholder="Password" name="pass"
+							required>
+					</div>
+
+					<div class="checkbox">
+						<label> <input type="checkbox"> Remember Me
+						</label>
+					</div>
+					<button type="submit" class="btn btn-success btn-block">Submit</button>
+						<div class="form-group">
+						<label class="change">Change Password <a href="ChangePassword.jsp">Click Here</a></label> 
+					</div>
+					
+				</form>
+			</div>
+			<div class="col-md-4 col-sm-4 col-sx-12"></div>
+				</div>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="buttonstyle.css">
+</head>
+
+
+<body bgcolor="antiquewhite">
+<form action="./DisplayDetails.jsp"  method="post" onsubmit="return validateStudForm()">
+
+<div class="stud-heading">
+<h1> STUDENT REGISTRATION FORM</h1>
+</div>
+
+	<div class="table-data" >
+		
+			<label class="fname" >First Name *</label><br>
+			<input type="text" name="fname"  class="fn" id="f1" autocomplete="off" required > 
+			<span id="fnerror" class="first"></span>
+		
+			<label class="mname">Middle Name *</label><br>
+			<input type="text" name="mname" class="mn" id="m1" autocomplete="off" required>
+			<span id="mnerror" class="middle"></span> 
+			
+			
+			<label class="lname">Last Name *</label><br>
+			<input type="text" name="lname" class="ln" id="l1" autocomplete="off" required> 
+			<span id="lnerror" class="last"></span> 
+			
+			<label class="add">Address *</label>
+			<input type="text" name="addr" class="ad" >
+			
+			<label class="pincode">Pin Code *</label><br>
+			<input type="number" name="pcode"  class="pc" id="pin" autocomplete="off" required> 
+			<span id="pinerror" class="pinnumber"></span> 
+		
+			<label class="city">City *</label><br>
+			<input type="text" name="city" class="ct" id="c-t" autocomplete="off" required> 
+			<span id="cityerror" class="ct"></span>
+			
+			<label class="state">State *</label><br>
+			<input type="text" name="state" class="st" id="s-t" autocomplete="off" required> 
+			<span id="stateerror" class="st"></span>
+			
+			<label class="country">Country *</label><br>
+			<input type="text" name="country" class="cty" value="India" readonly>
+			
+			<label class="email">Email-ID *</label><br>
+			<input type="text" name="email"  class="eid" id="mail" autocomplete="off" required>
+			<span id="mailerror" class="e-id"></span> 
+			
+			<label class="contact">Contact *</label><br>
+			<input type="text" name="contact" class="pno" id="contact" autocomplete="off" required> 
+			<span id="contacterror" class="phno"></span> 
+			
+			<label class="dob">Date Of Birth *</label><br>
+		 	 <input type="date" name="did" class="birth" id="dob" autocomplete="off" required>
+			<span id="birtherror" class="bid"></span>
+		
+			
+			
+			<label class="gender">Gender *</label><br>
+			<input type="radio" name="gender" class="gen" value="Male" required> <label class="g1" >Male</label>
+			<input type="radio" name="gender" class="gen2" value="Female" required> <label class="g2" >Female</label>		
+			
+			<label class="uid">User Name *</label><br>
+			<input type="text" name="uid"  class="uname" id="uname" autocomplete="off" required> 
+			<span id="usererror" class="usrid"></span> 
+		
+			<label class="pass"><blink>Password</blink> *</label><br>
+			<input type="password" name="pass" class="p1" id="pwd" autocomplete="off" required> 
+			<span id="passerror" class="pwd1"></span> 
+			
+			<label class="cpass">Confirm Password *</label><br>
+			<input type="password" name="cpass" class="p2" id="c-pwd" autocomplete="off" required> 
+			<span id="cpasserror" class="pwd2"></span> 
+			
+			<button class="submit" id="submit-button" type="submit" >Submit</button>
+			<button class="reset" type="reset">Reset</button>
+			<label class="log"><blink>Already have an account</blink></label><a href="Login.html">Click Here</a>
+	</div>
+	
+	</form>
+	<script src="myScript.js"></script>
+</body>
+
+</html>

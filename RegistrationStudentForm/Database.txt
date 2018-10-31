@@ -1,0 +1,16 @@
+create table registrationDetails(student_id number(5) primary key,firstname varchar2(30), middlename varchar2(30), lastname varchar2(30), address varchar2(80),pin number,city varchar2(20),state varchar2(30),country varchar2(20),mail varchar2(50),phone varchar2(15),birthday varchar(15),gender varchar2(10),username varchar2(20), pass varchar2(20), cpass varchar2(20))
+
+
+CREATE SEQUENCE stud_reg_sequence
+START WITH 1 INCREMENT BY 1;
+
+
+CREATE OR REPLACE TRIGGER student_reg_trigger
+BEFORE INSERT ON registrationDetails
+FOR EACH ROW
+
+BEGIN
+  SELECT stud_reg_sequence.NEXTVAL
+  INTO   :new.student_id
+  FROM   dual;
+END;

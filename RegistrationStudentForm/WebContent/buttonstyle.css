@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+
+
+
+button.submit{
+  background: yellowgreen;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:50px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+     margin-left: 30%;
+    width:40%;
+        font-family: cursive;
+    color: gold;
+}
+button.submit:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button.submit:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+ background: firebrick;
+  transition:400ms ease all;
+}
+button.submit:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button.submit:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+button.reset{
+  background: yellowgreen;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:50px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+     margin-left: 30%;
+    width:40%;
+    font-family: cursive;
+    color: gold;
+}
+button.reset:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button.reset:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: firebrick;
+  transition:400ms ease all;
+}
+button.reset:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button.reset:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
